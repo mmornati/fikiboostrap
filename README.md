@@ -8,14 +8,13 @@ Installation
 To install you can download project sources in zip format (directly from
 github):
 
------------------------------------------------------------------------------
-wget https://github.com/mmornati/fikiboostrap/archive/master.zip -O
-fikibootstrap.zip
------------------------------------------------------------------------------
+```bash
+wget https://github.com/mmornati/fikiboostrap/archive/master.zip -O fikibootstrap.zip
+```
 
 then, using asciidoc, you can install the fikibootstrap backend:
 
------------------------------------------------------------------------------
+```bash
 asciidoc --backend install fikibootstrap.zip
------------------------------------------------------------------------------
+```
 
